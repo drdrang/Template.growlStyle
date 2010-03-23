@@ -1,0 +1,47 @@
+body {
+	color: white;
+	margin: 0px 0px 0px 0px;
+	padding: 10px;
+  border: 3px solid #555;
+  -webkit-border-radius: 10px;
+	font-family: Lucida Grande, sans-serif;
+	min-height: 51px;
+	min-width: 100px;
+	
+/*  text-shadow:black 3px 2px 4px;*/
+}
+
+#background {
+	background-color: black;
+}
+
+#icon {
+  display: none;
+	/*float: left;
+	 top: 10px;
+	 left: 10px;
+	 width: 32px;
+	 height: 32px;
+	 margin-right: 5px;*/
+}
+
+#icon img {
+  display: none;
+	/*width: 32px;
+	 height: 32px;*/
+}
+
+#title {
+	font-weight:bold;
+	font-size:medium;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+#text {
+	font-size: 14px;
+}
+
+#emergency #text {
+	color: red;
+}
